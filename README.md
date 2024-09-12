@@ -1,24 +1,5 @@
-- Install the module `npx nuxt@latest module add auth-utils`
+- Create a new project within the NuxtHub admin panel in order to save `.env`.
 
-- Create a new endpoint `/routes/auth/github.get.ts`
+- Show the new code
 
-```ts
-export default oauthGitHubEventHandler({
-  config: {
-    emailRequired: true,
-  },
-  async onSuccess(event, { user, tokens }) {
-    await setUserSession(event, {
-      user: {
-        githubId: user.id,
-      },
-    });
-    return sendRedirect(event, "/");
-  },
-});
-```
-
-- See the result by visiting the home page
-
-
-_Do not forget to setup `.env` | https://github.com/settings/developers_
+- Deploy using `npx nuxthub link` and `npx nuxthub deploy`

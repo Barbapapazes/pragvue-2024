@@ -13,6 +13,7 @@
     "@nuxthub/core": "^0.7.12",
     "better-sqlite3": "^11.3.0",
     "nuxt": "^3.13.0",
+    "nuxt-auth-utils": "^0.3.8",
     "vue": "latest",
     "vue-router": "latest"
   },

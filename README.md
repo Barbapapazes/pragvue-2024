@@ -10,7 +10,7 @@ nitro: {
 },
 ```
 
-- Installer le package `better-sqlite3`
+- Install `better-sqlite3`
 
 - Create a new endpoint `server/api/users.post.ts` to create a new user (use the devtools)
 

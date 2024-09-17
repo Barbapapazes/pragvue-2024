@@ -8,10 +8,10 @@ export default defineNuxtConfig({
   //   },
   // },
 
-  hub: {
-    database: true,
-  },
+  // hub: {
+  //   database: true,
+  // },
 
   devtools: { enabled: true },
-  modules: ["@nuxthub/core"],
+  // modules: ["@nuxthub/core"],
 });
